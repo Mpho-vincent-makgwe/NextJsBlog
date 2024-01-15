@@ -1,5 +1,5 @@
 import ReactMarkdown from 'react-markdown';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import { PrismLight as SyntaxHighlighter } from 'react-syntax-highlighter';
 import atomDark from 'react-syntax-highlighter/dist/cjs/styles/prism/atom-dark';
 import js from 'react-syntax-highlighter/dist/cjs/languages/prism/javascript';
